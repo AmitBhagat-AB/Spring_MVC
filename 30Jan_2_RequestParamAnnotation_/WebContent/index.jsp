@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>IndexPage</title>
+</head>
+<body bgcolor="powderblue">
+<h1 style="text-align: center; font-family: monospace;color: green">httpServletRequest</h1>
+<form action="log">
+User Name:-<input type="text" name="uname" style="color: orange;" placeholder="enter username"> <br> <br>
+Password:- <input type="password" name="pass" style="color: b navy;" placeholder="enter password"> <br><br>
+			<input type="submit" value="ENTER" >
+<a href="register.jsp" style="color: black">Click for Registration</a>
+</form>
+</body>
+</html>
